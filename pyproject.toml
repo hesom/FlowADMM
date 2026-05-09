@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowadmm"
+description = "FlowADMM paper reproduction package for flow-based plug-and-play inverse problems"
+authors = [
+    {name="Hendrik Sommerhoff", email="hendrik.sommerhoff@uni-siegen.de"},
+license = {text = "BSD (3-Clause)"}
+requires-python = ">=3.12"
+dependencies = [
+    "deepinv",
+    "gdown",
+    "kaggle",
+    "lpips",
+    "matplotlib",
+    "ml_collections",
+    "ninja",
+    "numpy",
+    "opencv-python",
+    "pandas",
+    "PyYAML",
+    "pytorch-ignite",
+    "scikit-image",
+    "scipy",
+    "torch",
+    "torchvision",
+    "torchdiffeq",
+    "torchmetrics",
+    "tqdm",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "flowadmm.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+
+[project.optional-dependencies]
+rectified = [
+    "jax",
+    ]

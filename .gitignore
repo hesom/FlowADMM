@@ -1,0 +1,16 @@
+data/
+model/
+results/
+results_*/
+*.zip
+*.npy
+*.pt
+*.pth
+*.pyc
+*.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,21 @@
+EVAL:
+    dataset: 'celeba'
+    model: 'ot'
+    model_root_dir: 'model'
+    results_root_dir: ''
+    results_model_name: ''
+    root: './'
+    seed: 0
+    eval: True
+    eval_split: 'test'
+    problem: 'superresolution'
+    superresolution_sf: 0
+    gaussian_blur_sigma: -1.0
+    gaussian_blur_kernel_size: 61
+    method: 'flowadmm'
+    max_batch: 1
+    batch_size_ip: 4
+    noise_type: 'gaussian'
+    compute_memory: False
+    compute_time: False
+    save_results: True

@@ -1,0 +1,14 @@
+METHOD:
+    steps_admm: 100
+    tau: 1.0
+    t_min: 0.2
+    t_max: 0.95
+    gamma: 1.0
+    K_avg: 5
+    K_avg_schedule: 'constant'
+    K_avg_early: 1
+    K_avg_mid: 1
+    K_avg_late: 1
+    K_avg_switch_frac: 0.5
+    K_avg_switch_frac_2: 0.8
+    denoiser_chunk_size: 32
