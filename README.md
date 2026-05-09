@@ -2,7 +2,7 @@
 
 This repository contains code for the **FlowADMM** paper.
 
-This project was originally forked from the [`PnP-Flow`](https://github.com/annegnx/PnP-Flow) repository and then streamlined into a FlowADMM-focused public release. The included `FLOWER` baseline is derived from the separate [`Flower`](https://github.com/mehrsapo/Flower) repository, which itself builds on `PnP-Flow`.
+This project was originally forked from the [`PnP-Flow`](https://github.com/annegnx/PnP-Flow) repository. The included `FLOWER` baseline is derived from the separate [`Flower`](https://github.com/mehrsapo/Flower) repository, which itself builds on `PnP-Flow`.
 
 The public repo focuses on:
 
