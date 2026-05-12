@@ -1,3 +1,5 @@
+[![image](https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.08640)
+
 # FlowADMM
 
 This repository contains code for the **FlowADMM** paper.
